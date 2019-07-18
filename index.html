@@ -1,109 +1,48 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
-    <head>
-    <title>TODO supply a title</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+	<head>
+		<title>Rent A Car</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+		<!-- CSSler ayrı bir style dosyasında yazılmalıdır -> Buna EXTERNAL CSS denilir.  -->
+		<link rel="stylesheet" href="./style.css">
+	</head>
+	<body>
+		<div id = "title"> RENT A CAR </div>
+		<ul>
+			<li> <a href="#home"> Home </a> </li>
+			<li> <a href="#about"> About </a> </li>
+			<li> <a href="#login"> Login </a> </li>
+		</ul>
 
-
-<body>
-<div id = "title"> RENT A CAR </div>
-<ul >
-    <li> <a href="#home"> Home </a> </li>
-    <li> <a href="#about"> About </a> </li>
-    <li> <a href="#login"> Login </a> </li>
-</ul>
-
-<form>
-    <div id="pick1"> Pick up location 
-        <br>
-        <select>
-            <option value="istanbul">İstanbul</option>
-            <option value="istanbul">İzmir</option>
-            <option value="istanbul">Ankara</option>
-            <option value="istanbul">Samsun</option>
-
-        </select>
-
-        <br>
-        <div id="pick2"> Pick up date/time</div>
-        <input type="datetime-local" name="date">
-    </div>
-
-
-
-</form>
-<form>
-    <div id="drop1"> Drop up location 
-        <br>
-        <select>
-            <option value="istanbul">İstanbul</option>
-            <option value="istanbul">İzmir</option>
-            <option value="istanbul">Ankara</option>
-            <option value="istanbul">Samsun</option>
-        </select>
-
-        <br>
-        <div id="drop2"> Drop up date/time</div>
-        <input type="datetime-local" name="date">
-    </div>
-</form>
-
-</body>
-
+		<form>
+			<div id="pick1"> Pick up location 
+				<br>
+				<select>
+					<option value="istanbul">İstanbul</option>
+					<option value="istanbul">İzmir</option>
+					<option value="istanbul">Ankara</option>
+					<option value="istanbul">Samsun</option>
+				</select>
+				<br>
+				<div id="pick2"> Pick up date/time</div>
+				<input type="datetime-local" name="date">
+			</div>
+		</form>
+		<form>
+			<div id="drop1"> Drop up location 
+				<br>
+				<select>
+					<option value="istanbul">İstanbul</option>
+					<option value="istanbul">İzmir</option>
+					<option value="istanbul">Ankara</option>
+					<option value="istanbul">Samsun</option>
+				</select>
+				<br>
+				<div id="drop2"> Drop up date/time</div>
+				<input type="datetime-local" name="date">
+			</div>
+		</form>
+	</body>
 </html>
-<style>
-    #title{
-        background: #333333;
-        color:white;
-        text-align: left;
-        font-size:40px;
-        padding-left: 40px;
-    }
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333333;
-    }
-    li {
-        float: right;
-    }
-    li a{
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 20px;
-        text-decoration: none;
-    }
-    li a:hover {
-        background-color: #111111;
-    }
-    form{
-        float: left;
-        width: 250px;
-        padding-top: 100px;
-        padding-left: 60px;
-        font-size: 30px;
-    }
-    input{
-        border: 4px solid #333333;
-        border-radius: 4px;
-        height: 35px;
-
-    }
-    select{
-        border: 4px solid #333333;
-        border-radius: 4px;
-        height: 40px;
-        width: 196px;
-    }
-</style>
