@@ -1,48 +1,51 @@
-<!DOCTYPE html>
 <html>
-	<head>
-		<title>Rent A Car</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/style.css" rel="stylesheet" type="text/css"/>
+</head>
 
-		<!-- CSSler ayrı bir style dosyasında yazılmalıdır -> Buna EXTERNAL CSS denilir.  -->
-		<link rel="stylesheet" href="./style.css">
-	</head>
-	<body>
-		<div id = "title"> RENT A CAR </div>
-		<ul>
-			<li> <a href="#home"> Home </a> </li>
-			<li> <a href="#about"> About </a> </li>
-			<li> <a href="#login"> Login </a> </li>
-		</ul>
+<body>
+    <ul >        
+        <li> <a href="#contact">Contact</a></li>
+        <li> <a href="#blog">Blog</a></li>
+        <li> <a href="#hot deals">Hot Deals</a></li>          
+        <li> <a href="#home">Home</a></li>       
+    </ul>
 
-		<form>
-			<div id="pick1"> Pick up location 
-				<br>
-				<select>
-					<option value="istanbul">İstanbul</option>
-					<option value="istanbul">İzmir</option>
-					<option value="istanbul">Ankara</option>
-					<option value="istanbul">Samsun</option>
-				</select>
-				<br>
-				<div id="pick2"> Pick up date/time</div>
-				<input type="datetime-local" name="date">
-			</div>
-		</form>
-		<form>
-			<div id="drop1"> Drop up location 
-				<br>
-				<select>
-					<option value="istanbul">İstanbul</option>
-					<option value="istanbul">İzmir</option>
-					<option value="istanbul">Ankara</option>
-					<option value="istanbul">Samsun</option>
-				</select>
-				<br>
-				<div id="drop2"> Drop up date/time</div>
-				<input type="datetime-local" name="date">
-			</div>
-		</form>
-	</body>
-</html>
+<div class="str"> ALL DISCOUNTS JUST FOR YOU</div>
+<h1>FIND BEST RENTAL CAR</h1>
+<form action="#" method="post">
+    <table align="center">
+        <tr >
+            <td class="str2" colspan="3" text-align="center"><h2>Search for Cheap Rental Cars wherever Your Are </h2></td>
+        </tr>
+        <tr>
+            <td> Picking Up Location</td>
+            <td> Picking Up Date</td>
+            <td> Picking Up Hour</td>   
+        </tr>
+        <tr>
+            <td class="location"  > <input type="text" name="Location" required placeholder="Airport or Anywhere"> </td>
+            <td><input type="date" name="date" required placeholder="dd/mm/yyyy"></td>
+                <td><input type="time" name="time" required placeholder="20.00"> </td>   
+                    </tr>
+                    <tr>
+                        <td> Dropping Up Location</td>
+                        <td> Dropping Up Date</td>
+                        <td> Dropping Up Hour</td>   
+                    </tr>
+                    <tr>
+                        <td class="location"> <input type="text" name="Location" required placeholder="Airport or Anywhere"> </td>
+                        <td><input type="date" name="date" required placeholder="dd/mm/yyyy"></td>
+                            <td><input type="time" name="time" required placeholder="20.00"> </td>   
+                                </tr>
+                                <tr>
+                                    <td class="butt2" colspan="3" text-align="right"><input class="butt" type="button" name="find" value="Find car" ></td>
+                                    </tr>
+                                    </table> 
+                                    </form>
+                                    </body>
+                                    </html>
+
