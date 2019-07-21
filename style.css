@@ -1,19 +1,30 @@
-ul {
+.menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: white;
     height: 80px;
     padding-top: 0;
+
 }
 
-li {
+.menu li {
+    position: relative;
     float: right;
+    width: 150px;
+
+
+}
+.menu ul li ul {
+    display: none;
+
+}
+.menu ul li:hover ul{
+    display :block;
 
 }
 
-li a {
+.menu li a {
     display: block;
     color: dimgray;
     text-align: center;
@@ -21,10 +32,13 @@ li a {
     font-size: 28px;
     text-decoration: none;
     font-weight: bold;
+
 }
 
-li a:hover {
+.menu li a:hover {
     background-color: white;
+    transition: .5s ease-in-out;
+
 }
 .str{
     text-align: center;
@@ -34,9 +48,12 @@ li a:hover {
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
 
+
 }
 .str2{
     background-color: rgba(20, 24, 28, 0.8);
+
+
 }
 h1{
     text-align: center;
@@ -46,11 +63,14 @@ h1{
     font-family: 'Raleway', sans-serif;
     font-style: initial;
 
+
 }
 body{
     background-image: url("folder/road.jpg");
     background-size: 2000px 1000px;
     background-repeat: no-repeat;
+
+
 }
 table tr td{
     color: white;
@@ -90,5 +110,7 @@ input[type=button]{
     width: 150px;
     height: 60px;
     text-align: center;
-    background: red;
+    background: rgba(135, 44, 44, 0.9);
+
 }
+
