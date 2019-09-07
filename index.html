@@ -1,65 +1,68 @@
-<html>
-    <head>
-    <title>TODO supply a title</title>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style/style.css" rel="stylesheet" type="text/css"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
 </head>
 
 <body>
-<div class="menu">
-    <ul>        
-        <li> <a href="#contact">Contact</a></li>
-        <li> <a href="#blog">Blog</a></li>
-        <li> <a href="#hot deals">Hot Deals</a></li>          
-        <li> <a href="#home">Home</a>
-        <ul>
-            <li> <a href="#home">Home1</a></li>
-            <li> <a href="#home">Home2</a></li>
-            <li> <a href="#home">Home3</a></li>
-            <li> <a href="#home">Home4</a></li>
-            <li> <a href="#home">Home5</a></li>
-            <li> <a href="#home">Home6</a></li>
+    <div class="header">
+        <div class="container">
+            <a href="">HOME</a>
+            <a href="">HOT DEALS</a>
+            <a href="">VEHICLE</a>
+            <a href="">FAQS</a>
+            <a href="">FEATURES</a>
+            <a href="">BLOG</a>
+            <a href="">CONTACT</a>
+        </div>
+    </div>
+    <div class="showcase">
+        <h3>ALL DISCOUNTS JUST FOR YOU</h3>
+        <h1>FIND BEST RENTAL CAR</h1>
+        <div class="card">
+            <div class="title">
+                Search for Cheap Rental Cars Wherever Your Are
+            </div>
+            <div class="search">
+                <div class="boxing">
+                    <div class="box">
+                        Picking Up Location
+                        <input type="text" name="Location" required placeholder="Airport or Anywhere">
+                    </div>
+                    <div class="box">
+                        Picking Up Date
+                        <input type="date" name="date" required placeholder="dd/mm/yyyy">
+                    </div>
+                    <div class="box">
+                        Picking Up Time
+                        <input type="time" name="time" required placeholder="20.00">
+                    </div>
+                </div>
+                <div class="boxing">
+                    <div class="box">
+                        Dropping Up Location
+                        <input type="text" name="Location" required placeholder="Airport or Anywhere">
+                    </div>
+                    <div class="box">
+                        Dropping Up Date
+                        <input type="date" name="date" required placeholder="dd/mm/yyyy">
+                    </div>
+                    <div class="box">
+                        Dropping Up Time
+                        <input type="time" name="time" required placeholder="20.00">
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <input type="button" value="Find Car">
+            </div>
+        </div>
+    </div>
+</body>
 
-        </ul>
-            </li>
-    </ul>
-</div>
-<div class="str"> ALL DISCOUNTS JUST FOR YOU</div>
-<h1>FIND BEST RENTAL CAR</h1>
-<form action="#" method="post">
-    <table align="center"  cellpadding="0" cellspacing="0" border="0" >
-        <tr >
-            <td class="str2" colspan="3" text-align="center" ><h2>Search for Cheap Rental Cars wherever Your Are </h2></td>
-        </tr>
-        <tr>
-            <td> Picking Up Location</td>
-            <td> Picking Up Date</td>
-            <td> Picking Up Hour</td>   
-        </tr>
-        <tr>
-            <td> <input type="text" name="Location" required placeholder="Airport or Anywhere"> </td>
-            <td><input type="date" name="date" required placeholder="dd/mm/yyyy"></td>
-                <td><input type="time" name="time" required placeholder="20.00"> </td>   
-                    </tr>
-                    <tr>
-                        <td> Dropping Up Location</td>
-                        <td> Dropping Up Date</td>
-                        <td> Dropping Up Hour</td>   
-                    </tr>
-                    <tr>
-                        <td> <input type="text" name="Location" required placeholder="Airport or Anywhere"> </td>
-                        <td><input type="date" name="date" required placeholder="dd/mm/yyyy"></td>
-                            <td><input type="time" name="time" required placeholder="20.00"> </td>   
-                                </tr>
-                                <tr>
-                                    <td class="butt2" colspan="3" text-align="right"><input class="butt" type="button" name="find" value="Find car" ></td>
-                                    </tr>
-                                    </table> 
-                                    </form>
-                                    <section>
-
-                                    </section>
-                                    </body>
-                                    </html>
-
+</html>
