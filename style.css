@@ -43,8 +43,18 @@ body {
     height: 50px;
     padding-left: 5px;
     padding-top: 5px;
+     display: flex;
+    justify-content: space-around;
 }
-
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    margin-left: 400px;
+}
 .search {
     display: flex;
     flex-direction: column;
