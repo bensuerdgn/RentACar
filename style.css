@@ -47,7 +47,7 @@ body {
 }
 
 .menu li a:hover {
-  background: red;
+  background: rgba(20, 24, 28, 0.6);
   transition: 0.5s;
 }
 
